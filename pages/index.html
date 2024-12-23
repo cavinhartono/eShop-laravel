@@ -3,22 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/main.css" />
     <title>Document</title>
   </head>
   <body>
     <main class="relative container">
-      <header class="w-full px-24 py-6">
-        <div class="flex justify-between">
+      <header class="w-full px-24 py-6 fixed top-0 left-0 flex">
+        <div class="flex justify-between w-full">
           <h1 class="text-lg">Shoppie</h1>
-          <ul class="flex justify-between">
+          <ul class="flex gap-6">
             <li><a href="#" class="text-white-950">Home</a></li>
             <li><a href="#" class="text-white-950">Premium</a></li>
             <li><a href="#" class="text-white-950">About</a></li>
             <li><a href="#" class="text-white-950">Shop</a></li>
           </ul>
         </div>
+        <ul class="flex justify-between w-[300px]">
+          <a href="#" class="flex gap-2">
+            <span class="w-4 h-4"><ion-icon name="cart"></ion-icon></span>
+            <span>Cart (02)</span>
+          </a>
+          <a href="#" class="bg-[#00f] flex items-center px-8 py-4"
+            >Contact Us</a
+          >
+        </ul>
       </header>
+      <!-- <p class="font-['Dela_Gothic_One']">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam provident
+        ex animi recusandae consectetur eaque quibusdam, odio ipsum
+        exercitationem adipisci a veniam quaerat numquam sunt.
+      </p> -->
     </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
